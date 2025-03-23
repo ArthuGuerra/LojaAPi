@@ -1,0 +1,26 @@
+igualdade : Assert.Equal(expected, actual);
+
+Diferença: assert.Notequal(expected, actual);
+
+Verifiar se é nulo ou nao nulo:
+
+Assert.Null(object);    // verifica se é nulo
+assert.NotNull(object); // verifica se nao é nulo
+
+
+
+verificar Tipo:
+
+assert.IsType<ExpectedType>(object);   // verifica se é do tipo esperado
+
+
+Verificar verdadeiro/falso:
+
+Assert.True(condition);    // verifica se a condiçao é verdadeira 
+Assert.false(condition);   // verifica se a condiçao é falsa
+
+
+Comparação om precisao:
+
+Assert.InRange(value,low,high);    // verifica se o valor esta dentro de um intervalo
+
